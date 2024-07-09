@@ -1,0 +1,16 @@
+.post-in-order {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* width:100px;
+  height:150px; */
+  gap:15px;
+
+}
+.post-featured-image{
+  width:50%;
+}
+.col {
+  flex: 1; /* Allow each image to grow and shrink equally */
+  max-width: 30%;
+}
